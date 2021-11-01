@@ -1,0 +1,24 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<h1>Welcome @ViewData["firstName"]</h1>
+<h2 style="margin-top:20px">Personal Information</h2>
+
+<img src=@ViewData["avatar"] />
+
+<h5>Name: </h5>
+<p>@ViewData["firstName"] @ViewData["lastName"]</p>
+
+<h5>Email:</h5>
+<p>@ViewData["userEmail"]</p>
+
+<h5>Username: </h5>
+<p>@ViewData["username"]</p>
+
+<h5>DOB:</h5>
+<p>@ViewData["dob"]</p>
+
+<h5>Phone number:</h5>
+<p>@ViewData["phoneNum"]</p>
